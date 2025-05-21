@@ -124,7 +124,7 @@ npm start
 
 ```
 MONGODB_URI=your_mongodb_connection_string
-SECRET_KEY=your_secret_key
+
 ```
 
 Be sure to create your own `.env` file in the `backend` folder before running the backend server.
