@@ -120,7 +120,7 @@ npm start
 
 - The backend folder requires a `.env` file for MongoDB and other sensitive configuration.
 - This file is already gitignored and will not be pushed to the repository.
-- Example `.env` content:
+- Example `.env` content :
 
 ```
 MONGODB_URI=your_mongodb_connection_string
