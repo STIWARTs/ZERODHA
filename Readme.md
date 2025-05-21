@@ -116,6 +116,21 @@ npm start
 
 ---
 
+## Environment Variables
+
+- The backend folder requires a `.env` file for MongoDB and other sensitive configuration.
+- This file is already gitignored and will not be pushed to the repository.
+- Example `.env` content:
+
+```
+MONGODB_URI=your_mongodb_connection_string
+SECRET_KEY=your_secret_key
+```
+
+Be sure to create your own `.env` file in the `backend` folder before running the backend server.
+
+---
+
 ## Notes
 
 - Make sure you have Node.js and npm installed on your system.
